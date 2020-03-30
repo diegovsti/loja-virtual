@@ -1,0 +1,168 @@
+* {
+	font-family: "Futura Md BT";
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.topo {
+	height: 50px;
+	background-color: #353535;
+}
+
+.topoInterior {
+	width: 1000px;
+	margin: auto;
+	color: #fff;
+}
+
+.logomarca {
+	float: left;
+	font-size: 24px;
+	line-height: 50px;
+	cursor: pointer;
+}
+
+.menu {
+	float: right;
+}
+
+.menu ul,
+.menu li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.menu li {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 50px;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.menu li:hover {
+	background-color: #3accc5;
+	color: #ffc001;
+}
+
+/*banner*/
+	.banner {
+		height: 300px;
+		background-color: #3accc5;
+	}
+
+	.bannerInterior {
+		width: 1000px;
+		margin: auto;
+	}
+
+	.bannerEsquerda {
+		float: left;
+		margin-left: 55px;
+	}
+
+	.bannerDireita {
+		float: right;
+	}
+
+	.bannerDireita img {
+	
+	}
+
+	.frase1 {
+		font-size: 48px;
+		color: #fff;
+		margin-top: 60px;
+	}
+
+	.frase2 {
+		font-size: 24px;
+		color: #fff;
+	}
+
+	.botao {
+		background-color: #ffc001;
+		width: 280px;
+		height: 56px;
+		margin-top: 20px;
+		font-size: 20px;
+		font-weight: bold;
+		text-align: center;
+		line-height: 50px;
+		color: #fff;
+		border-radius: 50px;
+		cursor: pointer;
+	}
+	.botao:hover {
+		background-color: #fff;
+		color: #ffc001;
+		font-style: italic;
+	}
+/*banner*/
+
+/*conteudo*/
+	.conteudo {
+		width: 1000px;
+		margin: auto;
+	}
+
+	.conteudoInterno {
+		width: 1000px;
+		margin: auto;
+	}
+
+	.outrosprodutos {
+		height: 90px;
+		font-size: 20px;
+		font-weight: bold;
+		line-height: 90px;
+		text-align: center;
+	}
+
+	.fotos img {
+		margin-left: 5px;
+		margin-right: 5px;
+		float: left;
+	}
+
+	.fotos ul,
+	.fotos li {
+		list-style: none;
+	}
+/*conteudo*/
+
+.clear {
+	clear: both;
+}
+
+/*footer*/
+	.footer {
+		background-color: #3accc5;
+		height: 50px;
+		font-size: 20px;
+		text-align: center;
+		color: #fff;
+		line-height: 50px;
+		margin-top: 50px;
+	}
+
+	.criador, 
+	.criador span {
+		float: right;
+		margin-right: 30px;
+		font-size: 12px;
+		cursor: pointer;
+	}
+	.criador span {
+		margin-left: 5px;
+	}
+	.criador span:hover {
+		color: #ffc001;
+		font-style: italic;
+	}
+/*footer*/
